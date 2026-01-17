@@ -1,0 +1,193 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+}
+
+body {
+    background-color:#F5F5F7;
+}
+
+.site header {
+    display: flex;
+    width: 1240px;
+    height: 72px;
+    background-color: #F5F5F7;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+}
+
+
+.logo {
+    width: 110px;
+    height: 29px;
+    background-color: #F0EDFF;
+    color: #5B47D1;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 11px 19px 10px 23px;
+    margin: 11px 83px 11px 12px;
+    display: flex;
+}
+
+.menu ul {
+    font-weight: 500;
+    font-size: 24px;
+    padding:0%;
+    margin: 22px 244px 21px 83px;
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+    display: flex;
+}
+
+.hero {
+    width: 100%;
+    height: 400px;
+    background-image:url(22.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.section .h2 {
+    font-size: 36px;
+    font-weight: 700;
+    height: 44px;
+    color: #000000;
+    padding-bottom: 20px;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 29px;
+    margin: 45px 150px 151px 170px;
+}
+
+.card-color {
+    display: flex;
+    width: 380px;
+    height: 240px;
+    margin-bottom: 0px;
+}
+
+.card-meta {
+    background-color: white;
+    padding: 15px 19px 17px 19px;
+}
+.card span {
+    font-size: 13px;
+    font-weight: 400;
+}
+.cards span.date {
+    font-size: 13px;
+    font-weight: 400;
+    margin-right: 35px;
+}
+
+.cards h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 15px;
+    background-color: white;
+    margin-bottom: 6px;
+}
+.cards p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+.card-purple {background: #C7B8FF;}
+.card-pink {background: #FFB8D8;}
+.card-blue {background: #B8E0FF;}
+.card-yellow {background: #D4FFB8;}
+.card-orange {background: #FFE4B8;}
+.card-red {background: #FFD4B8;}
+
+.footer-container {
+    background-color: #252424;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 82px;
+    row-gap: 34px;
+}
+
+.footer-logo {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    height: 24px;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 14px;
+    color: #A1A1A6;
+    width: 296px;
+    height: 68px;
+    margin-top: 12px;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.footer-list {
+    font-weight: 600;
+    font-size: 14px;
+    color: #A1A1A6;
+}
+
+.footer-contact {
+    font-weight: 400;
+    font-size: 14px;
+    color: #A1A1A6;
+}
+
+.footer-bottom {
+    background-color: #020202;
+    height: 35px;
+    color:#86868B;
+    padding-top: 20px;
+   text-align: center;
+}
